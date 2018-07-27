@@ -1,0 +1,123 @@
+// Add your components here such as custom variables, UI elements, Typorgraphy
+
+
+// Variables
+
+$font-stack: 'montserrat', 'sans-serif';
+$bold: bold;
+$letter-1: lpx;
+$letter-2: 2px;
+$muted: rgba(0,0,0,0.5);
+
+// Color Scheme
+
+$fta-blue: #2B4060;
+$fta-orange: #FF5F00;
+$fta-orange-light: #FE7820;
+$fta-letter: 3px;
+
+
+// Typography
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-stack;
+    font-weight: $bold;
+}
+
+h1 {
+    font-size: 5em !important;
+}
+
+h2 {
+    font-size: 4em !important;
+}
+
+h3 {
+    font-size: 3.5em !important;
+}
+
+h4 {
+    font-size: 3em !important;
+}
+
+h5 {
+    font-size: 2.5em !important;
+}
+
+h6 {
+    font-size: 2em !important;
+}
+
+p, a {
+    font-family: $font-stack;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px !important;
+}
+
+.base {
+    font-size: 16px !important;
+}
+
+.muted {
+    color: $muted;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.p-small {
+    font-size: 14px !important;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #0d0d0d;
+}
+
+.p-bold {
+    font-weight: bold !important;
+}
+
+.hover-orange:hover {
+    color: #FE7820;
+}
+
+.text-orange {
+    color: $fta-orange-light;
+}
+
+.text-blue {
+    color: $fta-blue;
+}
+
+
+
+
+// Buttons
+
+
+
+
+// Cards
+
+
+
+
+
+// Icons
+
+
+
+
+// Forms
